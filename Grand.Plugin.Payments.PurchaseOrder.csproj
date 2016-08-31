@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,8 +8,8 @@
     <ProjectGuid>{65285681-E664-4F67-BB02-4D230D11BBDD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nop.Plugin.Payments.PurchaseOrder</RootNamespace>
-    <AssemblyName>Nop.Plugin.Payments.PurchaseOrder</AssemblyName>
+    <RootNamespace>Grand.Plugin.Payments.PurchaseOrder</RootNamespace>
+    <AssemblyName>Grand.Plugin.Payments.PurchaseOrder</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -22,7 +22,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\</OutputPath>
+    <OutputPath>..\..\Presentation\Grand.Web\Plugins\Payments.PurchaseOrder\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -31,7 +31,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\</OutputPath>
+    <OutputPath>..\..\Presentation\Grand.Web\Plugins\Payments.PurchaseOrder\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -116,17 +116,17 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Libraries\Grand.Core\Grand.Core.csproj">
       <Project>{6BDA8332-939F-45B7-A25E-7A797260AE59}</Project>
-      <Name>Nop.Core</Name>
+      <Name>Grand.Core</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Grand.Services\Grand.Services.csproj">
       <Project>{210541AD-F659-47DA-8763-16F36C5CD2F4}</Project>
-      <Name>Nop.Services</Name>
+      <Name>Grand.Services</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\Presentation\Grand.Web.Framework\Grand.Web.Framework.csproj">
       <Project>{75FD4163-333C-4DD5-854D-2EF294E45D94}</Project>
-      <Name>Nop.Web.Framework</Name>
+      <Name>Grand.Web.Framework</Name>
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
