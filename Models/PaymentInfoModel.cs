@@ -6,7 +6,7 @@ namespace Grand.Plugin.Payments.PurchaseOrder.Models
 {
     public class PaymentInfoModel : BaseNopModel
     {
-        [NopResourceDisplayName("Plugins.Payment.PurchaseOrder.PurchaseOrderNumber")]
+        [GrandResourceDisplayName("Plugins.Payment.PurchaseOrder.PurchaseOrderNumber")]
         [AllowHtml]
         public string PurchaseOrderNumber { get; set; }
     }

@@ -317,7 +317,15 @@ namespace Grand.Plugin.Payments.PurchaseOrder
             }
         }
 
+        public string PaymentMethodDescription
+        {
+            get
+            {
+                return "";
+            }
+        }
+
         #endregion
-        
+
     }
 }
